@@ -1,9 +1,9 @@
 APP ?= RMII
 PLUGDIR = ../plugin
 
-C = $(APP)AnalyzerSettings.cpp
+C = $(APP)AnalyzerSettings.cpp $(APP)SimulationDataGenerator.cpp
 
-H = $(APP)AnalyzerSettings.h
+H = $(APP)AnalyzerSettings.h $(APP)SimulationDataGenerator.h
 
 L += -lAnalyzer
 

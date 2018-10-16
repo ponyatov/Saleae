@@ -1,5 +1,5 @@
-#ifndef _H_HELLO_SETTINGS
-#define _H_HELLO_SETTINGS
+#ifndef _H_RMII_SETTINGS
+#define _H_RMII_SETTINGS
 
 #include <AnalyzerSettings.h>
 #include <AnalyzerTypes.h>
@@ -29,5 +29,5 @@ protected:
 
 };
 
-#endif // _H_HELLO_SETTINGS
+#endif // _H_RMII_SETTINGS
 
