@@ -19,6 +19,9 @@ public:
 	Channel mDataChannel;
 	Channel mClockChannel;
 
+private:
+	void				ClearMe(bool flag);
+
 protected:
 
 	std::auto_ptr< AnalyzerSettingInterfaceChannel >	mDataChannelInterface;
